@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "(time (-main))" | lein repl > out.txt
+echo "(time (-main \"project.clj\"))" | lein repl > out.txt
